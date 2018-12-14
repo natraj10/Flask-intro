@@ -1,0 +1,17 @@
+<html>
+    
+    <head><title>example html</title></head>
+    <body>
+        
+        <h1>this is an example templatesss</h1>
+        {% if myvar %}
+        <h1>the example variable is {{ myvar }}</h1>
+        {% else %}
+        <h2>there is no variable</h2>
+
+        {% endif %}
+
+        {% for link in links %}
+        <div><a href="{{ link }}">this is a link</a></div>
+        {% endfor %} 
+    </body>
